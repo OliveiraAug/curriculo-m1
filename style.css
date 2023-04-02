@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Inconsolata|Droid+Sans&display=swap');
+
+.fonts {
+    font-family: 'Tangerine', cursive;
+    font-family: 'Inconsolata', serif;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+}
+
+.content {
+    width: 60vw;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.content #footer {
+    height: 2vw;
+    font-style: italic;
+    color:white;
+    text-align: center;
+    margin: 20px;
+    font-size: 0.9em;
+    background-color: #1a1822;
+}
+
+.content #header {
+    width: inherit;
+    padding: 1.7em 5em 2em 5em;
+    background-color: #1a1822;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: black solid 5px;
+}
+
+.content #header .image {
+    height: 200px;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: black;
+    background-image: url(bob_foto_perfil.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content #header .title {
+    text-align: center;
+    width: 30vw;
+}
+
+.content #header .title h1 {
+    font-size: 6em;
+    margin-top: 0.4em;
+    line-height: 70%;
+}
+
+.content #header .title p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: right;
+    margin: 0, 0, 0, 2em;
+}
+
+.content #curriculumBody {
+    width: inherit;
+    padding: 30px 50px;
+    display: flex;
+}
+
+.content #curriculumBody h2{
+    font-size: 2em;
+}
+
+.content #curriculumBody #rightDiv {
+    margin-right: 30px;
+}
+.content #curriculumBody #leftDiv {
+    margin-left: 90px;
+}
+
+.content #curriculumBody .info{
+    width: 20vw;
+    margin-bottom: 40px;
+}
+.content #curriculumBody .info .line{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
