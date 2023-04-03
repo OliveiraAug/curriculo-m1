@@ -97,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content #curriculumBody .info{
     width: 20vw;
+    height: 250px;
     margin-bottom: 40px;
 }
 .content #curriculumBody .info .line{
